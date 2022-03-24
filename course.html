@@ -1,0 +1,127 @@
+<!-- Jai Shree Ganesh -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+    </style>
+    <title>india's most popular University website | www.university.com</title>
+    <link rel="shortcut icon" href="./images/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <!----------Header--------------->
+    <section class="about-header">
+        <nav>
+            <div id="logo">
+                <a href="index.html"> <img src="./images/logo.png"> </a>
+            </div>
+            <div class="nav-link" id="navLinks">
+                <img class="icon" src="./images/close.png" onclick="hideMenu()">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <img class="icon" src="./images/menu.png" onclick="showMenu()">
+        </nav>
+        <h1>Our Course</h1>
+    </section>
+
+    <!----------Our Course--------------->
+    <section class="course">
+        <h1>Course We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sapiente corporis dolorem odit neque
+                    architecto natus repellat esse.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sapiente corporis dolorem odit neque
+                    architecto natus repellat esse.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Post Graduate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sapiente corporis dolorem odit neque
+                    architecto natus repellat esse.</p>
+            </div>
+        </div>
+    </section>
+
+    <!----------Facilities--------------->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="facilities-cols">
+                <img src="./images/library.png" alt="">
+                <h3>World class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet neque ipsum officiis, architecto
+                    totam facilis.</p>
+            </div>
+
+            <div class="facilities-cols">
+                <img src="./images/basketball.png" alt="">
+                <h3>Largest Paly Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet neque ipsum officiis, architecto
+                    totam facilis.</p>
+            </div>
+
+            <div class="facilities-cols">
+                <img src="./images/cafeteria.png" alt="">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet neque ipsum officiis, architecto
+                    totam facilis.</p>
+            </div>
+        </div>
+    </section>
+
+    <!----------Footer--------------->
+    <section class="footer">
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium commodi quam, <br>quasi velit numquam
+            consectetur porro quidem cumque earum necessitatibus <br> magni recusandae voluptates debitis, deleniti quae
+        </p>
+
+        <div class="social-icon">
+            <img src="./images/fb.png" alt="">
+            <img src="./images/insta.png" alt="">
+            <img src="./images/tube.png" alt="">
+            <img src="./images/twit.png" alt="">
+            <img src="./images/linked.png" alt="">
+        </div>
+        <pre> <q> Made With Codes With Learning </q></pre>
+    </section>
+
+
+
+    <!----------Java Script Toggal Menu--------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
